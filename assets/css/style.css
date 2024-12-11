@@ -15,7 +15,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -59,7 +64,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -74,13 +80,14 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
   float: left;
@@ -98,17 +105,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: #ef6603;
   background: none;
 }
 
-.nav-menu .join-active > a{
+.nav-menu .join-active>a {
   background: #ef6603;
   text-decoration: none;
 }
 
-.nav-menu .join-active > a:hover {
+.nav-menu .join-active>a:hover {
   color: #000;
   background: #ef6603;
   text-decoration: none;
@@ -130,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
 }
 
-.nav-menu .drop-down:hover > ul {
+.nav-menu .drop-down:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -149,12 +158,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #2a2c39;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
   color: #ef6603;
   background: none;
 }
 
-.nav-menu .drop-down > a:after {
+.nav-menu .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
@@ -165,17 +176,17 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover > ul {
+.nav-menu .drop-down .drop-down:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.nav-menu .drop-down .drop-down > a {
+.nav-menu .drop-down .drop-down>a {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
+.nav-menu .drop-down .drop-down>a:after {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
@@ -186,10 +197,12 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-  .nav-menu .drop-down .drop-down:hover > ul {
+
+  .nav-menu .drop-down .drop-down:hover>ul {
     left: -100%;
   }
-  .nav-menu .drop-down .drop-down > a:after {
+
+  .nav-menu .drop-down .drop-down>a:after {
     content: "\ea9d";
   }
 }
@@ -245,12 +258,14 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #ef6603;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -258,11 +273,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\eaa1";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -375,6 +390,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 40px;
   }
+
   #hero h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -385,6 +401,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: translateY(5px);
   }
+
   100% {
     transform: translateY(-5px);
   }
@@ -394,6 +411,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: translateY(5px);
   }
+
   100% {
     transform: translateY(-5px);
   }
@@ -498,6 +516,66 @@ section {
 }
 
 /*--------------------------------------------------------------
+# months Section
+--------------------------------------------------------------*/
+.months .months-member {
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  transition: 0.3s;
+}
+
+.months .months-member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.months .months-member .member-img:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/team-shape.svg) no-repeat center bottom;
+  background-size: contain;
+  z-index: 1;
+}
+
+.months .months-member .member-info {
+  padding: 10px 15px 20px 15px;
+}
+
+.months .months-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: var(--color-secondary);
+}
+
+.months .months-member .member-info span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(33, 37, 41, 0.4);
+}
+
+.months .months-member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 26px;
+  color: rgba(33, 37, 41, 0.7);
+}
+
+.months .months-member:hover {
+  transform: scale(1);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.03);
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -550,28 +628,28 @@ section {
 }
 
 #footer .social-links .facebook:hover {
-    background: #38569e
+  background: #38569e
 }
 
 #footer .social-links .youtube:hover {
-    background: #fff;
-    color: red
+  background: #fff;
+  color: red
 }
 
 #footer .social-links .instagram:hover {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%)
+  background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%)
 }
 
 #footer .social-links .twitter:hover {
-    background: #1e93f0
+  background: #1e93f0
 }
 
 #footer .social-links .google-plus:hover {
-    background: #dc4a38
+  background: #dc4a38
 }
 
 #footer .social-links .linkedin:hover {
-    background: #0c64c5
+  background: #0c64c5
 }
 
 #footer .copyright {
