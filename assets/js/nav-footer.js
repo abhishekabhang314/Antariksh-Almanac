@@ -1,5 +1,3 @@
-// common.js
-
 // Function to load a partial HTML file into a specific element
 function loadPartial(filePath, elementId) {
     fetch(filePath)
@@ -16,6 +14,6 @@ function loadPartial(filePath, elementId) {
   }
   
   // Load the navbar and footer
-  //loadPartial('../navbar.html', 'navbar');
+  loadPartial('assets/navbar.html', 'navbar');
   loadPartial('assets/footer.html', 'footer');
   
