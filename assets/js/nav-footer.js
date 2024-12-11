@@ -15,9 +15,9 @@ function loadPartial(filePath, elementId, callback) {
 
 // Load navbar and footer, then initialize scroll functionality
 loadPartial("assets/navbar.html", "navbar", function () {
-    initScrollTo(); // Initialize scroll functionality
-    initMobileNav(); // Initialize mobile nav functionality
-  });
+  initScrollTo(); // Initialize scroll functionality
+  initMobileNav(); // Initialize mobile nav functionality
+});
 
 loadPartial("assets/footer.html", "footer");
 
@@ -84,7 +84,6 @@ function initScrollTo() {
   }
 }
 
-
 function initMobileNav() {
   if ($(".nav-menu").length) {
     const $mobile_nav = $(".nav-menu").clone().prop({
@@ -129,3 +128,15 @@ function initMobileNav() {
   }
 }
 
+// Init AOS
+function aos_init() {
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out",
+    once: true,
+    mirror: false,
+  });
+}
+$(window).on("load", function () {
+  aos_init();
+});
