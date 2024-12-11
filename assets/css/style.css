@@ -65,10 +65,18 @@
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    background-size: cover;
+    position: relative;
   }
 }
 
 @media (max-width: 575px) {
+  #hero {
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+  }
+  
   #hero h1 {
     font-size: 40px;
   }
