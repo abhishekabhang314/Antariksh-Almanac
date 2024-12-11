@@ -207,6 +207,12 @@ h6 {
     }
 }
 
+@media (min-width: 992px) {
+    .mobile-nav-toggle {
+        display: none;
+      }
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
     position: fixed;
@@ -240,6 +246,7 @@ h6 {
     visibility: hidden;
     border-radius: 10px;
     padding: 10px 0;
+    box-shadow: #000;
 }
 
 .mobile-nav * {
@@ -296,10 +303,10 @@ h6 {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(20, 21, 28, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     overflow: hidden;
     display: none;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
 }
 
 .mobile-nav-active {
