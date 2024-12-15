@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #fff;
     color: #444444;
 }
 
@@ -113,12 +114,15 @@ h6 {
 }
 
 .nav-menu .join-active>a {
-    background: #ef6603;
-    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.5s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #ef6603;
 }
 
 .nav-menu .join-active>a:hover {
-    color: #000;
+    color: #fff;
     background: #ef6603;
     text-decoration: none;
 }
@@ -320,6 +324,43 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #fd9042;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
 }
 
 /*--------------------------------------------------------------

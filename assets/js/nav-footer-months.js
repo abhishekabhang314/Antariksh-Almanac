@@ -14,7 +14,7 @@ function loadPartial(filePath, elementId, callback) {
   }
   
   // Load navbar and footer, then initialize scroll functionality
-  loadPartial("navbar.html", "navbar", function () {
+  loadPartial("navbar-month.html", "navbar", function () {
     initScrollTo(); // Initialize scroll functionality
     initMobileNav(); // Initialize mobile nav functionality
   });
