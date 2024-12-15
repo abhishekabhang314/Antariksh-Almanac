@@ -520,6 +520,10 @@
     font-size: 16px;
 }
 
+.cd-horizontal-timeline .events-content img {
+    max-width: 700px;
+}
+
 .cd-horizontal-timeline .events-content .img p {
     font-size: 14px;
     font-style: italic;
