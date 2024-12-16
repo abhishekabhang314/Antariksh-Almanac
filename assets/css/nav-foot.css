@@ -5,6 +5,8 @@ body {
     font-family: "Open Sans", sans-serif;
     background-color: #fff;
     color: #444444;
+    /*cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
+*/
 }
 
 a {
@@ -14,6 +16,11 @@ a {
 a:hover {
     color: #fc8129;
     text-decoration: none;
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    -moz-transform: translateY(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) rotate(90deg);
+    -o-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
 }
 
 h1,
@@ -214,7 +221,7 @@ h6 {
 @media (min-width: 992px) {
     .mobile-nav-toggle {
         display: none;
-      }
+    }
 }
 
 /* Mobile Navigation */
@@ -330,37 +337,37 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
-  overflow: hidden;
+    padding: 60px 0;
+    overflow: hidden;
 }
 
 .section-title {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
 }
 
 .section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #fd9042;
-  margin: 4px 10px;
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #fd9042;
+    margin: 4px 10px;
 }
 
 .section-title p {
-  margin: 0;
+    margin: 0;
 }
 
 /*--------------------------------------------------------------

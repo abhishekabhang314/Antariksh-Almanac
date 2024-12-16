@@ -55,7 +55,10 @@
 }
 
 #hero .btn-scroll i {
-  font-size: 48px;
+  display: inline-block; /* Ensures the element respects transformations */
+  transform: rotate(135deg); /* Adjust the angle here */
+  transition: transform 0.5s ease; /* Optional: Smooth transition for rotation */
+  font-size: 30px;
 }
 
 #hero .btn-scroll:hover {
