@@ -16,11 +16,6 @@ a {
 a:hover {
     color: #fc8129;
     text-decoration: none;
-    -webkit-transform: translateY(-50%) rotate(90deg);
-    -moz-transform: translateY(-50%) rotate(90deg);
-    -ms-transform: translateY(-50%) rotate(90deg);
-    -o-transform: translateY(-50%) rotate(90deg);
-    transform: translateY(-50%) rotate(90deg);
 }
 
 h1,
@@ -422,6 +417,11 @@ section {
     transition: 0.3s;
 }
 
+#footer .social-links a:hover {
+    transform: translateY(0%) rotate(360deg) scale(1.2);
+    transition: transform 1s;
+}
+
 #footer .social-links .youtube:hover {
     background: #fff;
     color: red
@@ -432,7 +432,7 @@ section {
 }
 
 #footer .social-links .linkedin:hover {
-    background: #0c64c5
+    background: #0c64c5;
 }
 
 #footer .copyright {
