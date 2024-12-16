@@ -1,21 +1,18 @@
 # Antariksh Almanac
 
-**Antariksh Almanac** is a dynamic astronomy calendar project that recaps astronomical events of 2024. The website features:
-- A main page introducing the project and the club behind it.
-- Month-wise event highlights displayed via interactive cards.
-- Dedicated pages for each month's events fetched dynamically from a MongoDB database.
+**Antariksh Almanac** is the official website for the Antariksh club's astronomy calendar, offering a month-wise recap of major astronomical events from 2024. The website is built with HTML, CSS, JavaScript, and Bootstrap to ensure a modern, responsive design.
 
 ## Features
-- **Event Listings:** 7–8 significant events for each month.
-- **Dynamic Content:** Powered by MongoDB for real-time updates.
-- **Responsive Design:** Ensures compatibility across devices.
+- **Interactive Design**: User-friendly interface with Bootstrap for styling and layout.
+- **Event Highlights**: Astronomy events for each month presented in an organized manner.
+- **Dynamic Navigation**: Month-wise event cards linked to dedicated pages for detailed insights.
 
 ## Project Structure
-- `frontend/`: HTML, CSS, JavaScript files for UI.
-- `backend/`: Server-side code managing database interactions.
-- `database/`: MongoDB configurations and event data.
+- **HTML**: Defines the structure of the pages, including the main page and individual month pages.
+- **CSS**: Custom styles combined with Bootstrap for a polished look.
+- **JavaScript**: Adds interactivity and enhances user experience.
 
-## Setup Instructions
-1. Clone the repository:
+## Getting Started
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/abhishekabhang314/Antariksh-Almanac.git
