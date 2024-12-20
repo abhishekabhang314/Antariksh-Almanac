@@ -416,11 +416,11 @@ section {
     height: 36px;
     transition: 0.3s;
 }
-
+/*
 #footer .social-links a:hover {
     transform: translateY(0%) rotate(360deg) scale(1.2);
     transition: transform 1s;
-}
+}*/
 
 #footer .social-links .youtube:hover {
     background: #fff;
