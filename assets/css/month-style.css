@@ -36,13 +36,10 @@
     color: #fff;
     margin-bottom: 30px;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #hero h2 span {
-    color: #fff;
-    margin-bottom: 30px;
-    font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
 }
