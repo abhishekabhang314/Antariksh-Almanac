@@ -113,12 +113,20 @@
 /*--------------------------------------------------------------
 # about
 --------------------------------------------------------------*/
+.about .section-title h2 {
+  color: #fff;
+}
+
+.about .section-title {
+  color: #c2c2c2;
+}
+
 .about .about-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #c2c2c2;
 }
 
 .about .about-item {
