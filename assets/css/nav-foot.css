@@ -3,14 +3,14 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #fff;
+    background-color: #000;
     color: #444444;
     /*cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
 */
 }
 
 a {
-    color: #ef6603;
+    color: #b3cde0;
 }
 
 a:hover {
@@ -111,7 +111,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #ef6603;
+    color: #b3cde0;
     background: none;
 }
 
@@ -120,12 +120,12 @@ h6 {
     transition: 0.5s;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #ef6603;
+    border: 2px solid #b3cde0;
 }
 
 .nav-menu .join-active>a:hover {
-    color: #fff;
-    background: #ef6603;
+    color: #000;
+    background: #b3cde0;
     text-decoration: none;
 }
 
@@ -138,7 +138,7 @@ h6 {
     opacity: 0;
     visibility: hidden;
     padding: 10px 0;
-    background: #fff;
+    background: #000;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: ease all 0.3s;
     border-radius: 15px;
@@ -161,13 +161,13 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
-    color: #2a2c39;
+    color: #757575;
 }
 
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #ef6603;
+    color: #b3cde0;
     background: none;
 }
 
@@ -246,7 +246,7 @@ h6 {
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: #fff;
+    background: #000;
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -264,7 +264,7 @@ h6 {
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #2a2c39;
+    color: #757575;
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
@@ -273,7 +273,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #ef6603;
+    color: #b3cde0;
     text-decoration: none;
 }
 

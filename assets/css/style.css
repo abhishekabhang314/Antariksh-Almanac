@@ -62,7 +62,7 @@
 }
 
 #hero .btn-scroll:hover {
-  color: #ef6603;
+  color: #799baf;
 }
 
 @media (min-width: 1024px) {
@@ -178,8 +178,8 @@
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
-  border: 1px solid #e5e5e5;
+  background: #111111;
+  border: 1px solid #121212;
   transition: 0.3s;
 }
 
@@ -208,14 +208,7 @@
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: var(--color-secondary);
-}
-
-.months .months-member .member-info span {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(33, 37, 41, 0.4);
+  color: #888888;
 }
 
 .months .months-member .member-info p {
@@ -223,10 +216,16 @@
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: rgba(33, 37, 41, 0.7);
+  color: rgb(86, 86, 86);
 }
 
 .months .months-member:hover {
   transform: scale(1);
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.months .months-member:hover > .member-info h4 {
+  color: #f8f9fc;
+  transition: 0.4s;
+
 }
