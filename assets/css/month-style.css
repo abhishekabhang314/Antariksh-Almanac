@@ -257,7 +257,7 @@
     top: 50px;
     height: 2px;
     /* width will be set using JavaScript */
-    background: #dfdfdf;
+    background: #373737;
     -webkit-transition: -webkit-transform 0.4s;
     -moz-transition: -moz-transform 0.4s;
     transition: transform 0.4s;
@@ -271,7 +271,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #313740;
+    background-color: #838383;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -294,6 +294,7 @@
     text-align: center;
     font-size: 1rem;
     padding-bottom: 15px;
+    color: #dfdfdf;
 
     /* fix bug on Safari - text flickering while timeline translates */
     -webkit-transform: translateZ(0);
@@ -513,6 +514,7 @@
     margin-bottom: 0px;
     line-height: 20px;
     margin-bottom: 15px;
+    color: #f8f9fc;
 }
 
 .cd-horizontal-timeline .events-content h4 small {
@@ -523,6 +525,7 @@
 
 .cd-horizontal-timeline .events-content p {
     font-size: 16px;
+    color: #8e8e8e;
 }
 
 .cd-horizontal-timeline .events-content p span {
@@ -537,11 +540,15 @@
     text-decoration: underline;
 }
 
+.cd-horizontal-timeline .events-content .img img {
+    border: 1px solid #121212;
+}
+
 .cd-horizontal-timeline .events-content .img p {
     font-size: 12px;
     font-style: italic;
     font-weight: 100;
-    color: #5c5c5c;
+    color: #9c9c9c;
 }
 
 .cd-horizontal-timeline .events-content .img a {
@@ -554,10 +561,12 @@
 
 .cd-horizontal-timeline .events-content hr {
     margin-bottom: 15px;
+    background-color: #313131;
 }
 
 .cd-horizontal-timeline .banner-credit p {
     font-size: 16px;
+    color: #8e8e8e;
 }
 
 .cd-horizontal-timeline .banner-credit p span {

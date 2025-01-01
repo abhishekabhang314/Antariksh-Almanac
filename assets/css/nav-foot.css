@@ -10,11 +10,10 @@ body {
 }
 
 a {
-    color: #b3cde0;
+    color: #a2c4f1;
 }
 
 a:hover {
-    color: #fc8129;
     text-decoration: none;
 }
 
@@ -111,7 +110,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #b3cde0;
+    color: #a2c4f1;
     background: none;
 }
 
@@ -120,12 +119,12 @@ h6 {
     transition: 0.5s;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #b3cde0;
+    border: 2px solid #a2c4f1;
 }
 
 .nav-menu .join-active>a:hover {
     color: #000;
-    background: #b3cde0;
+    background: #a2c4f1;
     text-decoration: none;
 }
 
@@ -167,7 +166,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #b3cde0;
+    color: #a2c4f1;
     background: none;
 }
 
@@ -273,7 +272,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #b3cde0;
+    color: #a2c4f1;
     text-decoration: none;
 }
 
@@ -357,7 +356,7 @@ section {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #fd9042;
+    background: #a2c4f1;
     margin: 4px 10px;
 }
 
