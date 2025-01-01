@@ -118,13 +118,13 @@
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #fff;
 }
 
 .about .about-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #404b72;
   position: relative;
 }
 
@@ -134,17 +134,25 @@
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #c2c2c2;
   margin-bottom: 10px;
 }
 
 .about .about-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #bdbdbd;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.about .about-item p {
+  color: #bdbdbd;
+}
+
+.about .about-item li {
+  color: #bdbdbd;
 }
 
 .about .about-item ul {
@@ -167,8 +175,8 @@
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: #000;
+  border: 2px solid #404b72;
 }
 
 /*--------------------------------------------------------------
